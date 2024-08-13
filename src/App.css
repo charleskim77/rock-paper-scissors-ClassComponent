@@ -75,6 +75,16 @@ body {
   box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 }
 
+.item-box-reset {
+  display: inline-block;
+  background-color: rgb(255, 136, 0);
+  color: #ffffff;
+  border-radius: 20px;
+  padding: 5px 15px;
+  margin: 5px 0;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
 .item-box-value {
   color: rgb(255, 136, 0);
   font-weight: bold;

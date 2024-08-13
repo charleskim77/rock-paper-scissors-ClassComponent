@@ -58,6 +58,16 @@ function App() {
     else if (user.name === "Paper") return computer.name === "Rock" ? "WIN" : "LOSE";
   };
 
+  const resetGame = () => {
+    setUserSelect(null);
+    setComputerSelect(null);
+    setResult("");
+    setGameCount(0);
+    setUserWins(0);
+    setComputerWins(0);
+    setTies(0);
+  };
+
   return (
     <div className='container'>
       <div className="row d-flex flex-column mb-3 item-box">
@@ -72,6 +82,7 @@ function App() {
           <div className="item-box-r1">You : {userWins}</div>
           <div className="item-box-r1">Ties : {ties}</div>
           <div className="item-box-r1">Computer : {computerWins}</div>
+          <div className="item-box-reset"> <button className="resetButton" onClick={resetGame}>Reset</button></div>
         </div>
 
         <div className="col-12 d-flex justify-content-center">
@@ -98,6 +109,7 @@ function App() {
             onClick={() => play('paper')}
           />
         </div>
+
       </div>
     </div>
   );
