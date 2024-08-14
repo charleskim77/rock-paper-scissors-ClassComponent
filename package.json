@@ -37,5 +37,5 @@
     ]
   },
   "proxy": "http://localhost:80",
-  "homepage": "/N01-rock-paper-scissors/"
+  // "homepage": "/rock-paper-scissors/"
 }
