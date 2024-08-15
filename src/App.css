@@ -28,7 +28,7 @@ body {
 }
 
 .container {
-  max-width: 800px;
+  max-width: 600px;
   padding: 2rem;
 }
 
@@ -55,11 +55,11 @@ body {
   border: 1px solid #d4d4d4;
   align-items: center;
   border-radius: 0.8rem;
-  padding: 50px 10px;
+  padding: 20px 10px;
 }
 
 .box img {
-  margin: 50px 0;
+  margin: 10px 0;
 }
 
 .box img {
@@ -76,26 +76,7 @@ body {
 
 .result {
   position: relative;
-}
-
-.item-box-point {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); /* 요소의 중앙을 기준으로 이동 */
-  text-align: center;
-}
-
-.item-box-point span {
-  display: inline-block;
-  background-color: #ff9a02;
-  color: #ffffff;
-  border: solid 3px #ff4a02;
-  font-size: 36px;
-  padding: 20px 20px 0px 20px;
-  border-radius: 20px;
-  font-family: 'JalnanGothic';
-  letter-spacing: 3px;
+  justify-content: space-between;
 }
 
 .item-box-point span p {
@@ -122,14 +103,38 @@ body {
   box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 }
 
-.item-box-reset {
-  display: inline-block;
+.item-box-point{
+  display: flex;
   background-color: rgb(255, 136, 0);
   color: #ffffff;
-  border-radius: 20px;
+  border-radius: 12px;
   padding: 5px 15px;
-  margin: 5px 0;
+  font-size: 2.5vw;
+  font-family: 'JalnanGothic';
+  letter-spacing: 3px;
   box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.alert  {
+  margin-bottom: 1rem;
+}
+.box-p-m {
+  margin-bottom: 1rem;
+}
+.item-box-reset {
+  display: flex;
+  background-color: rgb(255, 0, 0);
+  color: #ffffff;
+  border-radius: 12px;
+  padding: 5px 15px;
+  font-size: 2.5vw;
+  font-family: 'JalnanGothic';
+  letter-spacing: 3px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.resetButton {
+  color: #ffffff;
 }
 
 .item-box-value {
@@ -197,13 +202,13 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: #f0f0f0;
+  background-color: #3afff5;
 }
 
 .video-container {
   position: relative;
   width: 100%;
-  max-width: 800px;
+  max-width: 1500px;
   margin-bottom: 2rem;
 }
 
@@ -252,12 +257,12 @@ body {
 
 .volume-toggle-button {
   position: absolute;
-  top: 10px;
-  right: 10px;
+  top: 2vw;
+  right: 2vw;
   background: none;
   border: none;
   cursor: pointer;
-  font-size: 45px; /* 아이콘 크기 조정 */
+  font-size: 4vw; /* 아이콘 크기 조정 */
 }
 
 /*팝업*/
