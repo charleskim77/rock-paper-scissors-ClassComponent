@@ -79,22 +79,6 @@ body {
   justify-content: space-between;
 }
 
-.item-box-point span p {
-  margin-top: 10px;
-  font-size: 45px;
-  color: #000000;
-}
-@media screen and (max-width: 576px) {
-  .item-box-point span {
-    font-size: 18px;
-    padding: 20px 5px 0px 5px;
-    border-radius: 15px;
-  }
-  .item-box-point span p {
-    margin-top: 10px;
-    font-size: 24px;
-  }
-}
 .item-box-r1 {
   display: inline-block;
   border-radius: 20px;
@@ -109,7 +93,7 @@ body {
   color: #ffffff;
   border-radius: 12px;
   padding: 5px 15px;
-  font-size: 2.5vw;
+  font-size: 22px;
   font-family: 'JalnanGothic';
   letter-spacing: 3px;
   box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
@@ -127,7 +111,7 @@ body {
   color: #ffffff;
   border-radius: 12px;
   padding: 5px 15px;
-  font-size: 2.5vw;
+  font-size: 22px;
   font-family: 'JalnanGothic';
   letter-spacing: 3px;
   box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
@@ -140,6 +124,23 @@ body {
 .item-box-value {
   color: rgb(255, 136, 0);
   font-weight: bold;
+}
+
+.item-box-point span {
+  margin-left: 7px;
+  font-size: 22px;
+  color: #000000;
+}
+@media screen and (max-width: 576px) {
+  .item-box-point00 span {
+    font-size: 18px;
+    padding: 20px 5px 0px 5px;
+    border-radius: 15px;
+  }
+  .item-box-point00 span p {
+    margin-top: 10px;
+    font-size: 24px;
+  }
 }
 
 .modal-overlay {

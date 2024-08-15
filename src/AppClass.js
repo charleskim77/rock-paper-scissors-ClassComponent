@@ -272,7 +272,7 @@ export default class AppClass extends Component {
                         </div>
 
                         <div className="d-flex flex-wrap justify-content-between box-p-m">
-                            <div className="item-box-point"> <span>Points : {this.state.points}</span> </div>
+                            <div className="item-box-point"> Points : <span> {this.state.points}</span> </div>
                             <div className="item-box-reset"> <button className="resetButton" onClick={this.resetGame}>Reset</button></div>
                         </div>
 
